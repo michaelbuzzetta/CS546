@@ -1,0 +1,54 @@
+<!-- 
+Static HTML file 
+
+Your page should have a few basic user interface elements:
+
+A header tag, with an h1 inside it, naming your site, with a title for your page (the title tag in the head element should mimic this)
+A footer with your name, student ID, and any other info about yourself you wish to include
+An empty unordered list with an id of searchResults that is initially hidden.  
+A div with an id of movieDetails that is initially hidden.
+A form with an id of searchMovieForm.
+A text input with an id of movie_search_term.
+A label with a for attribute referencing your input
+A button to submit the form
+A link that links back to the "/" route with the text "New Search" and that has an id of rootLink This link will initially be hidden. It will ONLY be displayed when the movieDetails element is being displayed or ONLY when a search is performed and search results are being displayed.  This link will simply trigger a reload of the page, which then will display the page with just the search form so the user can search for a new movie. 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Search App</h1>
+    </header>
+    <main>
+        <form id="searchMovieForm">
+            <label for="movie_search_term">Search for a Movie:</label>
+            <input type="text" id="movie_search_term" name="movie_search_term" placeholder="Enter movie name">
+            <button type="submit">Search</button>
+        </form>
+        <div id="errorMessages" style="color: red; display: none;"></div>
+        <ul id="searchResults" hidden></ul>
+
+        <div id="movieDetails" hidden>
+            <img id="movieImage" src="/public/no_image.jpeg" alt="Movie Poster">
+            <div id="movieInfo"></div>
+        </div>
+
+        <a id="rootLink" href="/" hidden>New Search</a>
+    </main>
+    <footer>
+        <p>Michael Buzzetta | Student ID: 10468107</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>

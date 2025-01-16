@@ -1,0 +1,130 @@
+/*This file should have 10 CSS rulesets */
+
+body {
+    background-color: lightblue;
+    color: darkslategray;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="submit"] {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: seagreen;
+}
+.searchResultImage {
+    width: 75px;
+    height: 117px;
+}
+.search-results-page {
+    background-color: lightgray;
+    padding: 20px;
+}
+.return-button {
+    display: inline-block;
+    margin: 20px auto;
+    background-color: mediumseagreen; 
+    color: firebrick;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+.return-button:hover {
+    background-color: seagreen;
+}
+ol {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    justify-content: center;
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 20px;
+}
+ol li {
+    text-align: left;
+}
+ol li a {
+    display: block;
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+ol li a:hover{
+    color: lime;
+}
+ol li img {
+    width: 75px;
+    height: 117px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.get-movie {
+    background-color: forestgreen;
+    padding: 20px;
+}
+.get-movie h1 {
+    font-size: 1.8em;
+    color: gold;
+    margin-bottom: 15px;
+}
+.get-movie h2, .get-movie h3, .get-movie h4{
+    color: darkred;
+    margin-top: 20px;
+}
+.get-movie p, .get-movie dl, .get-movie dt{
+    color: black;
+}
+.my_coolratings_table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.my_coolratings_table th, .my_coolratings_table td {
+    padding: 8px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.my_coolratings_table th {
+    background-color:chocolate;
+    color: white;
+}
+.my_coolratings_table td{
+    color: black;
+}
+.error-page {
+    background-color: red;
+    padding: 20px;
+}
+.error-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}

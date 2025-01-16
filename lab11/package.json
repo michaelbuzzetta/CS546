@@ -1,0 +1,18 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "AJAX Lab11. Good Luck!. PLZ BE NICE",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Michael Buzzetta 10468107",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}

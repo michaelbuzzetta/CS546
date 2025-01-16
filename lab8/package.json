@@ -1,0 +1,19 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "Lab8, Movies",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Buzzetta 10468107",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "exphbs": "^1.2.0",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
+  }
+}

@@ -1,0 +1,57 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+.is-prime {
+    color: #00ff00;
+}
+.not-prime {
+    color: #ff0000;
+}
+#fibonacciResults {
+    margin: 0 auto;
+    text-align: center;
+    list-style-position: inside;
+}
+#error {
+    font-size: 30px;
+    font-weight: bolder;
+    color: aqua;
+}
+body {
+    background-color: rgb(12, 4, 32);
+    color: rgb(251, 252, 252);
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+}
+ol {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    justify-content: center;
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 20px;
+}
+header {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+button:hover {
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+input {
+    border: 2px solid gold;
+    padding: 10px;
+    font-size: 1em;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: gold;
+    text-align: right;
+}

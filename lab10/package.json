@@ -1,0 +1,21 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "Lab10-Middleware validation",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Michael Buzzetta 10468107",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "mongo": "^0.1.0"
+  }
+}

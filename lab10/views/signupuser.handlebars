@@ -1,0 +1,52 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+{{!--
+registration handlebars
+--}}
+<h2>Sign Up</h2>
+<form id="signup-form" action="/signupuser" method="POST">
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName">
+  
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName">
+  
+  <label for="userId">User ID:</label>
+  <input type="text" id="userId" name="userId">
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+  
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" name="confirmPassword">
+  
+  <label for="favoriteQuote">Favorite Quote:</label>
+  <textarea id="favoriteQuote" name="favoriteQuote"></textarea>
+  
+  <label for="backgroundColor">Background Color:</label>
+  <input type="color" id="backgroundColor" name="backgroundColor">
+  
+  <label for="fontColor">Font Color:</label>
+  <input type="color" id="fontColor" name="fontColor">
+  
+  <label for="role">Role:</label>
+  <select id="role" name="role">
+    <option value="" disabled selected>Select your role</option>
+    <option value="user">User</option>
+    <option value="admin">Admin</option>
+  </select>
+  
+  {{#if error}}
+    <p class="error" style="color: red;">{{error}}</p>
+  {{else}}
+    <p class="error" style="color: red; display: none;"></p>
+  {{/if}}
+  
+  <button type="submit">Sign Up</button>
+</form>
+<p><a href="/signinuser">Already have an account? Sign In</a></p>
+<script src="/public/js/form_validate.js"></script>

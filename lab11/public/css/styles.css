@@ -1,0 +1,69 @@
+/*
+You must include 5 CSS rules that aply to your application
+*/
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+main {
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+#searchResults {
+    display: none;
+    padding: 10;
+}
+
+#searchResults li {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+#movieDetails {
+    display: none;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#errorMessages {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#rootLink {
+    display: none;
+    text-decoration: none;
+    color: blue;
+}
